@@ -72,7 +72,7 @@ python3 --version
 ```
 - Google protobuf is installed. 
 ```sh
-sudo apt install python3-pip
+pip
 pip3 --version 
 pip3 install protobuf==3.20.0
 ```
@@ -99,12 +99,14 @@ deactivate
 ```
 
 ### Start jupyter-lab
+
 ```sh
 jupyter-lab
 ```
 - Create new notebook by click on python3 notebook icon
 - rename: milvus_hello_world
 - Importing few module
+
 ```py
 from pymilvus import connections, utility
 # this include username and password of milvus
